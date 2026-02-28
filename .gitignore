@@ -1,0 +1,23 @@
+# all source data (downloaded by setup_data.py)
+data/
+
+# legacy paths (in case of leftover files)
+*.csv
+philippines-json-maps/
+hdx_gdb/
+hdx_phl_adm.gdb.zip
+hdx_barangays.geojson
+
+# build artifacts
+dashboard/node_modules/
+dashboard/dist/
+
+# unused data
+dashboard/public/data/municipalities.geojson
+
+# editor / cache
+.vite/
+.vscode/
+__pycache__/
+*.pyc
+*.log
